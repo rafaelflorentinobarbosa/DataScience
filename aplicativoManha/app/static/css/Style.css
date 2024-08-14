@@ -1,0 +1,112 @@
+html{
+    background: url(https://rafaelflorentinobarbosa.github.io/Cards/img/galxia-laranja.jpg)no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+body{
+    /*background-color: lightblue;*/
+    transition: 5s;
+}
+h2{
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+h2, label{
+    color: rgb(25, 113, 196);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ra{
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+}
+#botao{
+    color: white;
+    background-color: rgb(101, 185, 212);
+    border: 1px solid rgb(2, 96, 184);
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+}
+#botao:hover{
+    background-color: rgb(117, 201, 230);
+}
+#containerFormLogin{
+    padding: 20px;
+    width: 400px;
+    margin: 300px auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#containerFormAluno{
+    padding: 20px;
+    width: 400px;
+    margin:180px auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#containerFormLogin{
+    padding: 20px;
+    width: 400px;
+    margin: 300px auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    text-align: center;
+}
+label, h2, input{
+    margin-bottom: 20px;
+}
+input{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 30px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    text-indent: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: lightgray;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: lightgray;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: lightgray;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: lightgray;  
+ }
+
+a{
+    text-decoration: none;
+    color: rgb(2, 96, 184);
+}
+a:hover{
+    color: blue;
+}
+
+#containerDiario{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    color: white;
+}
+#containerDiario h1{
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
