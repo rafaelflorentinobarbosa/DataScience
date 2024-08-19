@@ -2,9 +2,8 @@
 # pip install flask
 # pip freeze
 
-from flask import Flask,render_template, request
-
-from sqlalchemy import SQLAlchemy
+from flask import Flask,render_template, request, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
 
 # Importa a função `sessionmaker`, que é usada para criar uma nova sessão para interagir com o banco de dados
 from sqlalchemy.orm import sessionmaker

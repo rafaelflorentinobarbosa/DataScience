@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <title>Diário de Bordo</title>
+    </head>
+    <body>
+        <div id="containerFormAluno">
+            <h2>Cadastro de Aluno</h2>
+            <form action=/criaraluno method="POST">
+                <label for="ra">RA:</label> <br>
+                <input id="ra" type="text" id="ra" name="ra" maxlength="8" placeholder="Digite a RA do aluno" required><br>
+
+                <label for="nome">Nome Completo:</label> <br>
+                <input id="nome" type="text" id="nome" name="Nome" maxlength="8" placeholder="Digite o nome do aluno" required><br>
+
+                <label for="tempoestudo">Tempo Estudo:</label> <br>
+                <input id="tempoestudo" type="number" id="tempoestudo" name="Tempo_de_Estudo" placeholder="Digite o tempo de estudo" maxlength="8" required><br>
+
+                <label for="renda">Renda Familiar:</label> <br>
+                <input id="renda" type="text" id="renda" name="Renda_Media_Salarial_Familiar" maxlength="8" placeholder="Digite a renda familiar" required><br>
+
+                <input id="botao" type="submit" value="cadastrar"><br>
+            </form>
+        </div> 
+    </body>
+</html>
