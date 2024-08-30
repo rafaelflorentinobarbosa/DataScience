@@ -1,6 +1,31 @@
 
+# Instruções Aula
+
+# Linguagens para ciencia de dados:
+# python, jupyter, julialang , R
+
+# Instalar -> python, vscode, jupyther ->
+# ctrl+shift+p -> criar ambiente -> venv
+# Material Icon
+# Themes Dracula
+
+# Ativar VM primeiro dentro do venv
+# comandPrompt(!=powershel) -> .venv -> scripts -> activate
+# pip install jupyterlab
+# pip install notebook
+
+# Extensão do arquivo -> .ipynb
+
+# GIT HUB Instruções
+# Gerenciador de credenciais -> Credenciais do Windows -> remover usuario
+# git bash
+# git init
+# git config --global user.name Rafael 
+# git config --global user.email 
+
 # pip install flask
 # pip freeze
+
 
 from flask import Flask,render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
